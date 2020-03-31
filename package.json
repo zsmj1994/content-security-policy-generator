@@ -1,0 +1,18 @@
+{
+  "name": "content-security-policy-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zsmj1994/content-security-policy-generator.git",
+  "author": "dailer <zsmj1994@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^25.1.4",
+    "global": "^4.4.0",
+    "jest": "^25.2.3",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  }
+}
