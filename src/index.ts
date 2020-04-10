@@ -38,10 +38,10 @@ export const parseCSP = (cspString: string) => {
   return result;
 };
 
-export const generateCspString = (options: Partial<DirectiveTypes>) => {
+export const generateCspString = (options: CspDirectiveOptions) => {
   let arr: string[][] = [];
   Object.keys(options).forEach((key) => {
-    const directiveKey = key as keyof DirectiveTypes;
+    const directiveKey = key as keyof CspDirectiveOptions;
     const te = options[directiveKey];
     let result: string[] = [];
 
